@@ -1,7 +1,7 @@
 # cerebral-hemodynamics
 🧠
 
-![Full system](https://imgur.com/lnRskel)
+![Full system](https://i.imgur.com/lnRskel.jpg)
 ## Install 
 LABVIEW version 19.0+ and MATLAB version 9.7+ (i.e. R2019b) are dependencies.
 
