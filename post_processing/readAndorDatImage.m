@@ -4,6 +4,7 @@
 convertedImageFile = [rawDataFileName(1:end-4) '.tif'];
 
 %% parse the paramFile here
+
 param_ch1 = struct('fileName', param_file_name);
 param_file_ptr = fopen (param_file_name, 'r');
 tokeniser = ':';
