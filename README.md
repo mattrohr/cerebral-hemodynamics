@@ -6,7 +6,6 @@
 LABVIEW version 19.0+, LABVIEW IMAQdx 19.0+ ([check compatability](https://www.ni.com/en-us/support/documentation/compatibility/17/vision-acquisition-software-and-labview-compatibility.html)), LABVIEW DAQmx 19.0+ ([check compatability](https://www.ni.com/en-us/support/documentation/compatibility/16/ni-daqmx-and-labview-compatibility.html#:~:text=Additional%20Resources-,NI%2DDAQmx%20Compatibility%20with%20LabVIEW%20Service%20Packs,and%20also%20LabVIEW%202015%20SP1.)), and MATLAB version 9.7+ (i.e. R2019b) are dependencies.
 
 ## Equipment
-
 [1 of Andor Zyla 4.2 sCMOS](https://andor.oxinst.com/products/scmos-camera-series/zyla-4-2-scmos)
 [1 of Thorlabs T-Cube LED Driver](https://www.thorlabs.com/thorproduct.cfm?partnumber=LEDD1B)
 [1 of Thorlabs DC2100](https://www.thorlabs.com/thorproduct.cfm?partnumber=DC2100)
@@ -29,9 +28,9 @@ LABVIEW version 19.0+, LABVIEW IMAQdx 19.0+ ([check compatability](https://www.n
 [1 of Thorlabs GPS011 2D Galvo System Linear Power Supply](https://www.thorlabs.com/thorproduct.cfm?partnumber=GPS011)
 [1 of Semrock FF505-SDi01-25x36](https://www.semrock.com/FilterDetails.aspx?id=2167)
 [1 of Semrock FF605-Di02-25x36](https://www.semrock.com/FilterDetails.aspx?id=2838)
-1 of NI USB6211
-1 of NI USB6009
-1 of Diagnostic Instruments Boom Stand
+[1 of NI USB6211]()
+[1 of NIUSB6009]()
+[1 of Diagnostic Instruments Boom Stand]()
 
 ## Reagents
 [1 of rodent](http://www.mta.info/nyct)
