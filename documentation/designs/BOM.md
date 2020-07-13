@@ -51,7 +51,7 @@
 [1 of NI USB-6363 Multifunction I/O Device](https://www.ni.com/en-us/support/model.usb-6363.html)\
 [1 of Semrock FF505-SDi01-25x36 505-nanometer Dichroic Beamsplitter](https://www.semrock.com/FilterDetails.aspx?id=2167)\
 [1 of Dell Optiplex 7060 Tower](https://www.dell.com/en-us/work/shop/cty/optiplex-7060-tower-and-small-form-factor/spd/optiplex-7060-desktop)\
-[1 of Dell S2719H 27" Monitor](https://www.dell.com/en-us/shop/dell-27-monitor-s2719h/apd/210-aoxq/monitors-monitor-accessories)\
+[1 of Dell U2719D 27" Monitor](https://www.dell.com/en-us/work/shop/dell-ultrasharp-27-monitor-u2719d/apd/210-arcv)\
 [1 of Rocketfish RF825VA Power Supply Unit](https://www.rocketfishproducts.com/pdp/RF825VA/9486683)\
 1 of Diagnostic Instruments Boom Stand\
 McMaster-Carr Hex Bolts
