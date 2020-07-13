@@ -1,6 +1,6 @@
 # set languages for files types
-*.vi linguist-language=LabVIEW
-*.llb linguist-language=LabVIEW
+*.vi linguist-language=auto
+*.llb linguist-language=auto
 
 # Register as binary files
 *.vi -crlf -diff -merge
