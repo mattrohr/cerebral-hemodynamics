@@ -39,7 +39,8 @@
 [1 of Thorlabs CXY1 XY Translating Lens Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=CXY1#ad-image-0)
 
 ### Shared Use
-[2 of Thorlabs CM1-DCH Dichroic Cage Cube](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6079&pn=CM1-DCH)\
+[1 of Thorlabs CM1-DCH Dichroic Cage Cube](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6079&pn=CM1-DCH)\
+[1 of Thorlabs DFM1 Kinematic Filter Cube](https://www.thorlabs.com/thorproduct.cfm?partnumber=DFM1)\
 [2 of Thorlabs SM1T2 Lens Tube Coupler](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=2704&pn=SM1T2)\
 [1 of Thorlabs CP02 Cage Plate](https://www.thorlabs.com/thorproduct.cfm?partnumber=CP02)\
 [1 of Thorlabs LSM02 Scan Lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=LSM02)\
