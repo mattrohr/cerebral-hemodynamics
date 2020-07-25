@@ -8,6 +8,7 @@
 
 ### Optical Coherence Tomography (OCT)
 [1 of Thorlabs LS2000B 1325-nanometer (infrared) Extended Bandwidth SLD Source](https://www.thorlabs.com/thorproduct.cfm?partnumber=LS2000B)\
+[1 of Thorlabs FC1310-70-50-APC 2x2 Broadband SM Coupler 1310 ± 70 nm, 50:50 Split](https://www.thorlabs.com/thorproduct.cfm?partnumber=FC1310-70-50-APC)\
 [1 of Thorlabs VRC2 Detector Card](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=296&pn=VRC2)\
 1 of Custom Aluminum Mount
 
@@ -55,5 +56,28 @@
 1 of Diagnostic Instruments Boom Stand\
 McMaster-Carr Hex Bolts
 
+### Tenative Modifications
+```diff
+! Thorlabs DFM1 Kinematic Filter Cube and M1-DCH Dichroic Cage Cube have play, so Laserglow R471003FX's angle of incidence on Semrock FF505 beamsplitter is outside angle of acceptance.
+- Thorlabs DFM1 Kinematic Filter Cube
++ Thorlabs B3CR Cage Cube Rotation Platform 
++ Thorlabs C6W Cage Cube
++ Thorlabs FFM1 Rectangular Filter Mount
+# B3CR rotates only the FFM1-mounted optic inside of the C6W, allowing for fine tuning of angle of incidence.
+
+! Dell Optiplex 7060 Tower has run out of PCI-Express Lanes, so it can't accept Myricom 10-Gigabit Ethernet Network Interface Card for simultaneous measurement of blood-relative-velocity (i.e. LSCI).
++ 1 of Dell Optiplex 7060 Tower
+# It's possible to synchronize two PCs within a *.lvprj, or so I've been told.
+
+! Currently using a 50:50 coupler: 50% of light goes down the sample arm of the interferometer and remaining 50% goes down reference arm.
+- Thorlabs FC1310-70-50-APC 2x2 Broadband SM Coupler, 1310 ± 70 nm, 50:50 Split
++ Thorlabs TW1300R2A2 2x2 Wideband Fiber Optic Coupler, 1300 ± 100 nm, 90:10 Split
+# Shooting 50% of light down the reference arm is overkill, and we'd rather have ~40% more signal from the sample.
+
+! Blue light from the stimulation laser is hitting the Zyla sensor.
+- Semrock FF505-SDi01-25x36 505-nanometer Dichroic Beamsplitter
++ Semrock FF496-SDi01-25x36x2.0 496-nanometer Dichroic Beamsplitter
+# Swapping beamsplitter would further decrease sample-reflected blue light by ~5%, red by ~2%, green by ~2%. Good tradeoff between signal and noise reduction. Also, OCT alignment laser is still visible with this new filter, which allows us to map OCT field of view with the Zyla's.
+```
 ## Reagents
 [1 of rodent](http://www.mta.info/nyct)
