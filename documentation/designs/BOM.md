@@ -78,6 +78,10 @@ McMaster-Carr Hex Bolts
 - Semrock FF505-SDi01-25x36 505-nanometer Dichroic Beamsplitter
 + Semrock FF496-SDi01-25x36x2.0 496-nanometer Dichroic Beamsplitter
 # Swapping beamsplitter would further decrease sample-reflected blue light by ~5%, red by ~2%, green by ~2%. Good tradeoff between signal and noise reduction. Also, OCT alignment laser is still visible with this new filter, which allows us to map OCT field of view with the Zyla's.
+
+! cable rat's nest
++ McMaster-Carr Low-Vibration Snap-Together Open Cable and Hose Carriers
+# cleaner; prevent cable droop during in vivo experiments; minimize cable strain and snagging
 ```
 ## Reagents
 [1 of rodent](http://www.mta.info/nyct)
