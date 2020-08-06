@@ -1,9 +1,9 @@
 # Calibration
-## Zyla sCMOS Minimum Resolution and Field of View
+## Zyla sCMOS Minimum Resolution and Field of View; Blue stimulation laser dimensions
 ![resolution calculation](https://www.thorlabs.com/images/TabImages/TestTargetEqMD.jpg)\
-Therefore,  group 2 element 2's resolution is 4.49 line pairs per millimeter. The width of a line pair is then 1 / 4.49 = 0.222717149 millimeters. This distance was applied using [distance_tool.m](./distance_tool.m), and used to calibrate remaining distances.
+Therefore,  group 2 element 2's resolution is 4.49 line pairs per millimeter. The width of a line pair is then 1 / 4.49 = 0.222717149 millimeters. This distance was applied using [distance_tool.m](./distance_tool.m), and used to calibrate field of view and laser spot dimensions.
 
-![stimulation (blue) laser](https://i.imgur.com/Hdq7onj.png)\
+![stimulation (blue) laser dimensions](https://i.imgur.com/Hdq7onj.png)\
 *Fig. 3: [Andor Zyla 4.2 sCMOS Camera](https://andor.oxinst.com/products/scmos-camera-series/zyla-4-2-scmos) image of blue stimulation laser ([Laserglow R471003FX](https://www.laserglow.com/product/R47-M-473-nm-DPSS-Laser-System)) illuminating group 2 element 2 on [Thorlabs R1DS1P U.S. Air Force Target](https://www.thorlabs.com/thorproduct.cfm?partnumber=R1DS1P).*
 
 Note: This calibration won't account for brain curvature relative to objective lens.
